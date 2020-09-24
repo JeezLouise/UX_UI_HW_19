@@ -239,6 +239,8 @@ ul {
     margin: auto;
 }
 
+/* ----- Non Animated Button
+
 .button {
 
     background-color: Transparent;
@@ -253,12 +255,13 @@ ul {
 
 }
   
+
 .button:hover {
     
     border: 3px solid rgb(186, 208, 212);
     background-color: rgb(186, 208, 212);
 
-}
+} ----- */
 
 /* ----- Skills ----- */
 
@@ -278,6 +281,32 @@ ul {
     width: 40px;
     margin: 0 15px;
 }
+
+.wrapper {
+
+    width: 100%;
+    margin-top: 3em;
+    text-align: center;
+
+}
+
+a.button {
+
+    background-color: #C2D8E0;
+    padding: 1em 3em;
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+
+    /* button animation below */
+
+    animation-duration: 2.3s;
+    animation-iteration-count: 10;
+
+}
+
+
 
 /* ----- Project SkyMix ----- */
 
